@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Fourpool</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <style type="text/css">
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
+<head>
+  <title>Fourpool</title>
+</head>
 
-      .jumbotron {
-        margin: 60px 0;
-        text-align: center;
-      }
+<body>
+  <h1>Matthew Michihara</h1>
+  <img src="http://www.gravatar.com/avatar/54845d64a4146d48732fdde77e50f0e2?s=200" />
+  <a class="twitter-follow-button" href="https://twitter.com/mattmichihara" data-show-count="false">Follow @mattmichihara</a>
+  <script>
+    window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
 
-      .jumbotron h1 {
-        font-size: 72px;
-        line-height: 1;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container-narrow">
-      <div class="jumbotron">
-        <h1>Matthew Michihara</h1>
-        <img src="http://www.gravatar.com/avatar/54845d64a4146d48732fdde77e50f0e2?s=200" />
-        <p>Engineer at <a href="https://www.lookout.com">Lookout</a></p>
-      </div>
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
 
-      <ul>
-        <li>
-          <a href="https://twitter.com/mattmichihara">twitter</a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/matthew.michihara">facebook</a>
-        </li>
-        <li>
-          <a href="https://foursquare.com/mattmichihara">foursquare</a>
-        </li>
-        <li>
-          <a href="https://github.com/matthewmichihara">github</a>
-        </li>
-        <li>
-          <a href="http://www.linkedin.com/in/matthewmichihara">linkedin</a>
-        </li>
-        <li>
-          <a href="http://stackoverflow.com/users/128948">stackoverflow</a>
-        </li>
-        <li>
-          <a href="https://plus.google.com/113145550201032375194/posts">plus</a>
-        </li>
-        <li>
-          <a href="http://www.goodreads.com/user/show/2537595-matthew">goodreads</a>
-        </li>
-      </ul>
-    </div>
+      return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-8350614-2']);
-      _gaq.push(['_trackPageview']);
+  <a href="https://foursquare.com/user/1478754" class="fourSq-widget" data-type="follow" data-fuid="1478754">Follow me on Foursquare</a>
+  <script type='text/javascript'>
+    (function() {
+      window.___fourSq = {};
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = 'http://platform.foursquare.com/js/widgets.js';
+      s.async = true;
+      var ph = document.getElementsByTagName('script')[0];
+      ph.parentNode.insertBefore(s, ph);
+    })();
+  </script>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+  <p>Engineer at
+    <del><a href="https://www.microsoft.com">Microsoft</a></del>
+    <del><a href="https://www.lookout.com">Lookout</a></del>
+    <a href="https://www.foursquare.com">Foursquare</a>.
+  </p>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8350614-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+
 </html>
